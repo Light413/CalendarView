@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "CalendarView"
-  s.version      = "0.0.1"
-  s.summary      = "A simple use for ios calendar."
+  s.name         = "PickerCalendarView"
+  s.version      = "1.0.0"
+  s.summary      = "A simple use case for iOS Calendar!"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "calendar/CalendarView/*.{h,m}"
+  s.source_files  = "calendar/PickerCalendarView/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
