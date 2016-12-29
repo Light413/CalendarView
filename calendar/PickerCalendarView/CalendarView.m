@@ -62,7 +62,7 @@ static NSString * calendarCollectionCellIdentifier = @"calendarCollectionCellIde
     _currentMonthTotalDays = [self totalDayOfMonth:_currentDate];
     
     UILabel * _l = [[self viewWithTag:10] viewWithTag:102];
-    _l.text = [NSString stringWithFormat:@"%ld - %02ld",_currentYear,_currentMonth];
+    _l.text = [NSString stringWithFormat:@"%ld - %02ld",(long)_currentYear,(long)_currentMonth];
 }
 
 -(void)initSubview:(CGRect)frame
@@ -235,14 +235,14 @@ static NSString * calendarCollectionCellIdentifier = @"calendarCollectionCellIde
        cell.title.textColor = [UIColor lightGrayColor];
     }
     
-    cell.title.text = [NSString stringWithFormat:@"%ld",value];
+    cell.title.text = [NSString stringWithFormat:@"%ld",(long)value];
     cell.tag = tag;
     return cell;
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSInteger year,month,day;
+    NSInteger year=0,month=0,day=0;
     CalendarViewCell * cell = (CalendarViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
     NSInteger tag = cell.tag;
 

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A12A86561E10AE5700157303 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A86521E10AE5700157303 /* CalendarView.m */; };
-		A12A86571E10AE5700157303 /* CalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A86541E10AE5700157303 /* CalendarViewCell.m */; };
-		A12A865B1E10E31000157303 /* PickerCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A865A1E10E31000157303 /* PickerCalendarView.m */; };
+		A14B9B321E14E78900126A0E /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A14B9B2D1E14E78900126A0E /* CalendarView.m */; };
+		A14B9B331E14E78900126A0E /* CalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A14B9B2F1E14E78900126A0E /* CalendarViewCell.m */; };
+		A14B9B341E14E78900126A0E /* PickerCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A14B9B311E14E78900126A0E /* PickerCalendarView.m */; };
 		AD0FF3B31E0E677A0068CD27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0FF3B21E0E677A0068CD27 /* main.m */; };
 		AD0FF3B61E0E677A0068CD27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0FF3B51E0E677A0068CD27 /* AppDelegate.m */; };
 		AD0FF3B91E0E677A0068CD27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0FF3B81E0E677A0068CD27 /* ViewController.m */; };
@@ -19,12 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A12A86511E10AE5700157303 /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
-		A12A86521E10AE5700157303 /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
-		A12A86531E10AE5700157303 /* CalendarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewCell.h; sourceTree = "<group>"; };
-		A12A86541E10AE5700157303 /* CalendarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewCell.m; sourceTree = "<group>"; };
-		A12A86591E10E30F00157303 /* PickerCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerCalendarView.h; sourceTree = "<group>"; };
-		A12A865A1E10E31000157303 /* PickerCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerCalendarView.m; sourceTree = "<group>"; };
+		A14B9B2C1E14E78900126A0E /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		A14B9B2D1E14E78900126A0E /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		A14B9B2E1E14E78900126A0E /* CalendarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewCell.h; sourceTree = "<group>"; };
+		A14B9B2F1E14E78900126A0E /* CalendarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewCell.m; sourceTree = "<group>"; };
+		A14B9B301E14E78900126A0E /* PickerCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerCalendarView.h; sourceTree = "<group>"; };
+		A14B9B311E14E78900126A0E /* PickerCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerCalendarView.m; sourceTree = "<group>"; };
 		AD0FF3AE1E0E677A0068CD27 /* calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0FF3B21E0E677A0068CD27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD0FF3B41E0E677A0068CD27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,24 +48,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A12A86501E10AE5700157303 /* CalendarView */ = {
+		A14B9B2B1E14E78900126A0E /* PickerCalendarView */ = {
 			isa = PBXGroup;
 			children = (
-				A12A86511E10AE5700157303 /* CalendarView.h */,
-				A12A86521E10AE5700157303 /* CalendarView.m */,
-				A12A86531E10AE5700157303 /* CalendarViewCell.h */,
-				A12A86541E10AE5700157303 /* CalendarViewCell.m */,
-				A12A86591E10E30F00157303 /* PickerCalendarView.h */,
-				A12A865A1E10E31000157303 /* PickerCalendarView.m */,
+				A14B9B2C1E14E78900126A0E /* CalendarView.h */,
+				A14B9B2D1E14E78900126A0E /* CalendarView.m */,
+				A14B9B2E1E14E78900126A0E /* CalendarViewCell.h */,
+				A14B9B2F1E14E78900126A0E /* CalendarViewCell.m */,
+				A14B9B301E14E78900126A0E /* PickerCalendarView.h */,
+				A14B9B311E14E78900126A0E /* PickerCalendarView.m */,
 			);
-			name = CalendarView;
-			path = calendar/CalendarView;
+			path = PickerCalendarView;
 			sourceTree = "<group>";
 		};
 		AD0FF3A51E0E677A0068CD27 = {
 			isa = PBXGroup;
 			children = (
-				A12A86501E10AE5700157303 /* CalendarView */,
 				AD0FF3B01E0E677A0068CD27 /* calendar */,
 				AD0FF3AF1E0E677A0068CD27 /* Products */,
 			);
@@ -82,6 +80,7 @@
 		AD0FF3B01E0E677A0068CD27 /* calendar */ = {
 			isa = PBXGroup;
 			children = (
+				A14B9B2B1E14E78900126A0E /* PickerCalendarView */,
 				AD0FF3B41E0E677A0068CD27 /* AppDelegate.h */,
 				AD0FF3B51E0E677A0068CD27 /* AppDelegate.m */,
 				AD0FF3B71E0E677A0068CD27 /* ViewController.h */,
@@ -175,11 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12A865B1E10E31000157303 /* PickerCalendarView.m in Sources */,
-				A12A86571E10AE5700157303 /* CalendarViewCell.m in Sources */,
+				A14B9B341E14E78900126A0E /* PickerCalendarView.m in Sources */,
+				A14B9B331E14E78900126A0E /* CalendarViewCell.m in Sources */,
 				AD0FF3B91E0E677A0068CD27 /* ViewController.m in Sources */,
 				AD0FF3B61E0E677A0068CD27 /* AppDelegate.m in Sources */,
-				A12A86561E10AE5700157303 /* CalendarView.m in Sources */,
+				A14B9B321E14E78900126A0E /* CalendarView.m in Sources */,
 				AD0FF3B31E0E677A0068CD27 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
