@@ -10,7 +10,7 @@ as follows<br>
  
 first download the demo , pull `PickerCalendarView folder ` into your project.
 
-* ### only use `CalendarView` ,eg:
+* ### only use `CalendarView` :
 
 ```
     CalendarView * _v = [[CalendarView alloc]initWithFrame:CGRectMake(10, 100, 300, 250)];
