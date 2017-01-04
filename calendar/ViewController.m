@@ -23,18 +23,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
-//    CalendarView * _v = [[CalendarView alloc]initWithFrame:CGRectMake(10, 100, 300, 250)];
-//    _v.delegate = self;
-//    [self.view addSubview:_v];
+    CalendarView * _v = [[CalendarView alloc]initWithFrame:CGRectMake(10, 100, 300, 250)];
+    _v.delegate = self;
+    [self.view addSubview:_v];
 }
 
-//-(void)calendarViewDidSelectedWithDate:(NSDate *)selected
-//{
-//    NSDateFormatter * formatter = [[NSDateFormatter alloc]init];
-//    [formatter setDateFormat:@"yyyy/MM/dd"];
-//    [formatter stringFromDate:selected];
-//    NSLog(@"选择的日期 ： %@",[formatter stringFromDate:selected]);
-//}
+-(void)calendarViewDidSelectedWithDate:(NSDate *)selected
+{
+    NSDateFormatter * formatter = [[NSDateFormatter alloc]init];
+    [formatter setDateFormat:@"yyyy/MM/dd"];
+    [formatter stringFromDate:selected];
+    NSLog(@"选择的日期 ： %@",[formatter stringFromDate:selected]);
+}
 
 #pragma mark - PickerCalendarDelegate
 

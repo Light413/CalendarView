@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint CalendarView.podspec' to ensure this is a
+#  Be sure to run `pod spec lint PickerCalendarView.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "PickerCalendarView"
   s.version      = "1.0.0"
-  s.summary      = "A simple use case for iOS Calendar!"
+  s.summary      = "A simple use case for iOS Calendar."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC deimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  
+  #   * Write the description between the DESC delimiters below.
+  #   * Finally, don't worry about the indent, CocoaPods strips it
+
   s.homepage     = "https://github.com/Light413/CalendarView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -79,7 +79,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Light413/CalendarView.git", :tag =>s.version}
 
-
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
@@ -89,7 +88,6 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "calendar/PickerCalendarView/*.{h,m}"
-  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
