@@ -4,15 +4,15 @@ A simple use for iOS Calendar - select date when pop -up。(demo for Xcode8.0 , 
 
 ![CalendarView](https://raw.githubusercontent.com/Light413/images/master/CalendarView_demo.gif)
 
-* ###Adding to your project
+* ### Adding to your project
 
- use pod : <br>
-
+use pod : <br>
+ 
 ```
 pod 'PickerCalendarView', '~> 1.0.0'
 ```
- not pod : <br> 
- download the demo , pull \`PickerCalendarView folder \` into your project. <br>
+not pod : <br> 
+download the demo , pull \`PickerCalendarView folder \` into your project. <br>
  
  
  * ### only use \`CalendarView\` :
