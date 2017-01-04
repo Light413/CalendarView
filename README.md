@@ -6,7 +6,7 @@ A simple use for iOS Calendar - select date when pop -up。(demo for Xcode8.0 , 
 
 ### Adding to your project
 
-use pod : <br>
+use pod(iOS8.0 and later) : <br>
  
 ```
 pod 'PickerCalendarView', '~> 1.0.0'
