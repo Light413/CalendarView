@@ -13,18 +13,16 @@ A simple use for iOS Calendar - select date when pop -up。(demo for Xcode8.0 , 
 pod 'PickerCalendarView', '~> 1.0.0'
 
 ```
-
- not pod : <br>
-  
- download the demo , pull \`PickerCalendarView folder \` into your project.
-
+ not pod : <br> 
+ download the demo , pull \`PickerCalendarView folder \` into your project. <br>
+ 
+ 
 *  ### only use \`CalendarView\` :
 
 ```
-    CalendarView * _v = [[CalendarView alloc]initWithFrame:CGRectMake(10, 100, 300, 250)];
+CalendarView * _v = [[CalendarView alloc]initWithFrame:CGRectMake(10, 100, 300, 250)];
     _v.delegate = self;
-    [self.view addSubview:_v];
-    
+    [self.view addSubview:_v];    
 ```
 
 as follows: <hr>
@@ -34,7 +32,6 @@ if you think the headview isn't right ,you can hide it in file `CalendarView.h` 
 
 ```
 //#define NeedHeadView
-
 ```
 and add custom .
 
@@ -42,10 +39,6 @@ and add custom .
 
  ```
  [PickerCalendarView showWithDelegate:self];
- 
  ```
-
-you should implement it's delegate mothods for get data. 
-
-that is all , just see code.
+you should implement it's delegate mothods for get data. that is all , just see code.
 
